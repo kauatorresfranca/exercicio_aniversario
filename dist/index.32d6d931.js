@@ -1,0 +1,2 @@
+AOS.init();const e=new Date("sep 3, 2024 00:00:00").getTime(),o=setInterval(function(){let t=e-new Date().getTime(),n=Math.floor(t/864e5),l=Math.floor(t%864e5/36e5),a=Math.floor(t%36e5/6e4),r=Math.floor(t%6e4/1e3);console.log(n),console.log(l),console.log(a),console.log(r),document.getElementById("contador").innerHTML=`${n}d ${l}h ${a}m ${r}s`,t<0&&(clearInterval(o),document.getElementById("contador").innerHTML="Evento expirado")},1e3);
+//# sourceMappingURL=index.32d6d931.js.map
